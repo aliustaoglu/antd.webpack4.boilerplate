@@ -1,0 +1,42 @@
+{
+  "name": "starter.ant.design",
+  "version": "1.0.0",
+  "description": "Ant Design Webpack4 React Boilerplate",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aliustaoglu/antd.webpack4.boilerplate.git"
+  },
+  "bugs": {
+    "url": "https://github.com/aliustaoglu/antd.webpack4.boilerplate/issues"
+  },
+  "homepage": "https://github.com/aliustaoglu/antd.webpack4.boilerplate#readme",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --mode production",
+    "start": "webpack-dev-server --config ./webpack.config.js --mode development"
+  },
+  "author": "Cuneyt Aliustaoglu",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.4",
+    "babel-plugin-import": "^1.8.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "css-loader": "^0.28.11",
+    "less": "^3.0.4",
+    "less-loader": "^4.1.0",
+    "react-hot-loader": "^4.3.3",
+    "style-loader": "^0.21.0",
+    "webpack": "^4.12.1",
+    "webpack-cli": "^3.0.8",
+    "webpack-dev-server": "^3.1.4"
+  },
+  "dependencies": {
+    "antd": "^3.6.4",
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1"
+  }
+}

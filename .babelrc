@@ -1,0 +1,16 @@
+{
+  "env": {
+    "test": {
+      "plugins": [],
+      "presets": ["env", "react", "stage-2"]
+    },
+    "development": {
+      "plugins": [["import", { "libraryName": "antd", "libraryDirectory": "es" }]],
+      "presets": ["env", "react", "stage-2"]
+    },
+    "production": {
+      "plugins": [["import", { "libraryName": "antd", "libraryDirectory": "es" }]],
+      "presets": ["env", "react", "stage-2"]
+    }
+  }
+}
