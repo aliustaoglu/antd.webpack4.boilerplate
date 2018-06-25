@@ -12,13 +12,15 @@
   },
   "homepage": "https://github.com/aliustaoglu/antd.webpack4.boilerplate#readme",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "jest",
     "build": "webpack --mode production",
     "start": "webpack-dev-server --config ./webpack.config.js --mode development"
   },
   "author": "Cuneyt Aliustaoglu",
   "license": "ISC",
   "devDependencies": {
+    "@types/enzyme": "^3.1.11",
+    "@types/jest": "^23.1.1",
     "babel-core": "^6.26.3",
     "babel-loader": "^7.1.4",
     "babel-plugin-import": "^1.8.0",
@@ -26,6 +28,9 @@
     "babel-preset-react": "^6.24.1",
     "babel-preset-stage-2": "^6.24.1",
     "css-loader": "^0.28.11",
+    "enzyme": "^3.3.0",
+    "enzyme-adapter-react-16": "^1.1.1",
+    "jest": "^23.1.0",
     "less": "^3.0.4",
     "less-loader": "^4.1.0",
     "react-hot-loader": "^4.3.3",
